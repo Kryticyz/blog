@@ -1,5 +1,5 @@
 module blog
 
-go 1.21
+go 1.22
 
-require github.com/yuin/goldmark v1.6.0
+require github.com/yuin/goldmark v1.7.13

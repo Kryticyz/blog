@@ -16,11 +16,11 @@ import (
 )
 
 type Post struct {
-	Title     string    `json:"title"`
-	Date      time.Time `json:"date"`
-	Image     string    `json:"image"`
-	Slug      string    `json:"slug"`
-	Content   string    `json:"-"`
+	Title   string    `json:"title"`
+	Date    time.Time `json:"date"`
+	Image   string    `json:"image"`
+	Slug    string    `json:"slug"`
+	Content string    `json:"-"`
 }
 
 func parsePost(path string) (*Post, error) {

@@ -1,14 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Blog</title>
-	<link rel="stylesheet" href="/static/css/home.css">
-</head>
-<body>
-	<div id="root"></div>
-	<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-	<script src="/static/js/app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="/static/css/home.css" />
+    </head>
+    <body>
+        <div id="root">
+            <div id="greeting">
+                <h1>Home</h1>
+                <p>
+                    Welcome to my web page. Here you will find a collection of
+                    my ideas and projects.
+                </p>
+                <br />
+                <p>Stick around if you care, leave if you don't.</p>
+                <br />
+                <p>
+                    I'm available for problem solving work if it's interesting.
+                    Most of my time is spent learning Electronics Engineering,
+                    which I am currently studying at the Australian National
+                    University. I maintain a couple of software clients and am
+                    working on a couple of hardware projects for myself.
+                </p>
+                <br />
+                <p>You can contact me at tynan@matthews.solutions</p>
+            </div>
+            <br />
+            <div id="posts">
+                <h1>Posts</h1>
+                <div id="post-container">
+                    <p>A crude directory listing</p>
+                    <ul>
+                        <li><a href="/post/first-post">My first post</a></li>
+                        <li>
+                            <a href="/post/second-post">On the simple web</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="/static/js/app.js"></script>
+    </body>
 </html>

@@ -1,7 +1,6 @@
 # Minimalist Go Blog
 
-Simple blog engine using Go and React.
-Initial structure generated using Claude Code.
+Simple blog engine using Go.
 
 ## Structure
 
@@ -34,8 +33,11 @@ image: posts/images/blog_page/your-image.jpg
 Your markdown content here...
 ```
 
-## Running
-You will have to install the goldmark dependency first.
+Markdown translation is WIP
+
+The image url is used at the top of the page as well as within it's display card in the posts/ page.
+
+# Running
 
 ```bash
 go run main.go
